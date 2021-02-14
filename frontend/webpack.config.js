@@ -17,6 +17,10 @@ module.exports = {
       exclude: /node_modules/,
       use: ['babel-loader'],
     },
+    {
+      test: /\.(s*)css$/,
+      use: ['style-loader', 'css-loader'],
+    },
   ]},
   plugins: [
     // Don't output new files if there is an error
