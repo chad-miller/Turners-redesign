@@ -44,9 +44,9 @@ const NavigationBar = () => {
                 Separated link
               </NavDropdown.Item>
             </NavDropdown>
-            <Button variant="outline-dark">MAKE A CLAIM</Button>{' '}
+            <Button variant="outline-dark"><b>MAKE A CLAIM</b></Button>{' '}
           </Nav>
-          <Navbar.Brand style={CenterText} href="#home">
+          <Navbar.Brand style={CenterText} href="turners">
             <img
               src="/static/turners-logo.png"
               width="300"

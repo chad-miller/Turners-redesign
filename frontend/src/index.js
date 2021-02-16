@@ -10,6 +10,7 @@ import ImgCarousel from './components/Carousel'
 import VehicleCard from './components/Card'
 
 
+
 // Define the React app
 const App = () => {
   return (

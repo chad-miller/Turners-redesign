@@ -3,7 +3,7 @@ const webpack = require('webpack');
 module.exports = {
   // Where Webpack looks to load your JavaScript
   entry: {
-    main: path.resolve(__dirname, 'src/index.js'),
+    main: path.resolve(__dirname, 'src/'),
   },
   mode: 'development',
   // Where Webpack spits out the results (the myapp static folder)

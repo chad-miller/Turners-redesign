@@ -21,4 +21,6 @@ from TurnersRedesign import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index),
+    path('turners', views.turners, name='turners'),
+    path('mazda', views.mazda, name='mazda'),
 ]

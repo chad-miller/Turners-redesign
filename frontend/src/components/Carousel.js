@@ -25,7 +25,7 @@ const ImgCarousel = () => {
   };
   return (
     <div>
-      <Carousel style={CarouselStyling}>
+      <Carousel style={CarouselStyling} nextIcon={<span aria-hidden="true" className="carousel-control-next-icon" />}>
         <Carousel.Item>
           <img
             className="d-block w-100"
@@ -33,7 +33,9 @@ const ImgCarousel = () => {
             alt="Mazda-Atenza"
           />
           <Carousel.Caption style={CarouselText}>
-            <button style={ButtonStyling}>BUY NOW</button>
+            <form action='mazda'>
+              <button style={ButtonStyling} type="submit">BUY NOW</button>
+            </form>
             <h2>MAZDA ATENZA FOR SALE</h2>
             <p>12V BATTERY | 6 SPEEDS | ADJUSTABLE SEATS | LED LIGHTS </p>
           </Carousel.Caption>
@@ -41,7 +43,7 @@ const ImgCarousel = () => {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="holder.js/800x400?text=Second slide&bg=282c34"
+            src="/static/undraw_towing_6yy4.png"
             alt="Second slide"
           />
 
@@ -53,7 +55,7 @@ const ImgCarousel = () => {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="holder.js/800x400?text=Third slide&bg=20232a"
+            src="/static/undraw_printing_invoices_5r4r.png"
             alt="Third slide"
           />
 
