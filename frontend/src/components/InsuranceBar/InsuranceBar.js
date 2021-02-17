@@ -7,11 +7,22 @@ const InsuranceBar = () => {
     color: 'white',
     textAlign: 'center',
     padding: '0.5rem',
-    margin: '0 0 60px 0',
+  };
+
+  const MarginRight = {
+    marginRight: '0.5rem',
   };
 
   return (
     <div style={InsuranceBarStyling}>
+      <img
+        style={MarginRight}
+        src="/static/insurance-bar-icon.png"
+        width="auto"
+        height="20"
+        className="d-inline-block align-top"
+        alt="insurance-icon"
+      />
       BUY INSURANCE PLUS TODAY AND RECEIVE A 10% DISCOUNT
     </div>
   );

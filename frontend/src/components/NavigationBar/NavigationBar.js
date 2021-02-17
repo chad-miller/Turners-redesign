@@ -11,21 +11,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Define the React app
 const NavigationBar = () => {
-  
   const NavbarFont = {
-    marginTop: '35px',
     fontFamily: 'Oswald, sans-serif',
     letterSpacing: '3px',
   };
 
-  const CenterText = {
-    margin: '0 auto'
-  }
-
   const LetterSpacing = {
     letterSpacing: '2rem',
-    textAlign: 'center'
-  }
+    textAlign: 'center',
+  };
 
   return (
     <header>
@@ -44,12 +38,14 @@ const NavigationBar = () => {
                 Separated link
               </NavDropdown.Item>
             </NavDropdown>
-            <Button variant="outline-dark"><b>MAKE A CLAIM</b></Button>{' '}
+            <Button variant="outline-dark">
+              <b>MAKE A CLAIM</b>
+            </Button>{' '}
           </Nav>
-          <Navbar.Brand style={CenterText} href="turners">
+          <Navbar.Brand className="mr-auto" href="turners">
             <img
               src="/static/turners-logo.png"
-              width="300"
+              width="auto"
               height="100"
               className="d-inline-block align-top"
               alt="React Bootstrap logo"
@@ -60,7 +56,6 @@ const NavigationBar = () => {
         <Nav.Link href="#link">CONTACT</Nav.Link>
         <Nav.Link href="#link">LOGIN</Nav.Link>
       </Navbar>
-      
     </header>
   );
 };
