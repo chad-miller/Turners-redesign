@@ -17,7 +17,7 @@
         body {
             background: url('/static/background.jpg');
             background-size: cover;
-            background-position: center;
+            
             background-repeat: no-repeat;
         }
     </style>
@@ -26,10 +26,8 @@
 
 <body>
     <div id="app">
-        <h1>Hello world!</h1>
-        <button id="click">Click me :)</button>
+        <script id="myscript" src="{% static 'build/main.js' %}"></script>
     </div>
-    <script id="myscript" src="{% static 'build/main.js' %}"></script>
 </body>
 
 </html>

@@ -5,3 +5,9 @@
   padding-bottom: 16px;
   margin: 0px 50rem 0px 50rem;
 }
+
+.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: 30rem;
+}

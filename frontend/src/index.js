@@ -6,8 +6,10 @@ import NavigationBar from './components/NavigationBar/NavigationBar';
 import InsuranceBar from './components/InsuranceBar/InsuranceBar';
 import SearchBar from './components/SearchBar/SearchBar'
 import PlusSign from './components/PlusSign';
-import ImgCarousel from './components/Carousel'
+import ImgCarousel from './components/Carousel/Carousel'
 import VehicleCard from './components/Card'
+import Footer from './components/Footer/Footer'
+
 
 
 
@@ -19,6 +21,8 @@ const App = () => {
         <NavigationBar />
         <ImgCarousel />
         <VehicleCard />
+        
+        <Footer />
       </div>
   );
       

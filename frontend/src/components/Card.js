@@ -42,20 +42,6 @@ const VehicleCard = () => {
           <Card.Text style={TextSpace}>$19,000</Card.Text>
         </Card.Body>
       </Card>
-      <Card>
-        <Card.Img variant="top" src="/static/card-car-image.png" />
-        <Card.Body>
-          <Card.Title style={TitleFontWeight}>BMW i8 Hybrid Concept</Card.Title>
-          <Card.Text style={TextSpace}>$25,000</Card.Text>
-        </Card.Body>
-      </Card>
-      <Card>
-        <Card.Img variant="top" src="/static/card-car-image.png" />
-        <Card.Body>
-          <Card.Title style={TitleFontWeight}>BMW i8 Hybrid Concept</Card.Title>
-          <Card.Text style={TextSpace}>$29,000</Card.Text>
-        </Card.Body>
-      </Card>
     </CardDeck>
   );
 };

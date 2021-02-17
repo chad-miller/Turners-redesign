@@ -1,6 +1,7 @@
 import React from 'react';
 import { Carousel, CarouselCaption, CarouselItem } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'components/Carousel/Carousel.css'
 
 const ImgCarousel = () => {
   const CarouselStyling = {
@@ -25,7 +26,7 @@ const ImgCarousel = () => {
   };
   return (
     <div>
-      <Carousel style={CarouselStyling} nextIcon={<span aria-hidden="true" className="carousel-control-next-icon" />}>
+      <Carousel style={CarouselStyling} nextIcon={<span aria-hidden="true" className="carousel-control-next-icon"/>}>
         <Carousel.Item>
           <img
             className="d-block w-100"

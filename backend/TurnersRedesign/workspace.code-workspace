@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\.."
+		},
+		{
+			"path": "..\\..\\..\\..\\..\\MyPythonScripts\\Django-React-Project"
+		},
+		{
+			"path": "..\\..\\..\\..\\AWS-Rekognition-Car-Image-search"
+		}
+	],
+	"settings": {}
+}

@@ -1,0 +1,56 @@
+
+@font-face {
+    font-family: Oswald;
+    src: url(https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@100;300&display=swap);
+}
+@font-face {
+    font-family: Roboto;
+    src: url(https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap);
+}
+
+.main-footer {
+    color: #292F33;
+    background-color: white;
+    padding-top: 3em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-family: Oswald;
+  }
+
+.list-unstyled {
+    font-size: 12px;
+    letter-spacing: 0.18em;
+    line-height: 43px;
+    font-weight: 900;
+}
+
+h2 {
+    font-weight: 900;
+    letter-spacing: 0.03em;
+    line-height: 34px;
+    
+}
+
+.deal {
+font-size: 12px;
+letter-spacing: 0.18em;
+line-height: 18px;
+font-weight: 900;
+}
+
+.read-more {
+font-size: 15px;
+line-height: 24px;
+font-weight: 900;
+font-family: Roboto;
+font-weight: normal;
+}
+
+#about {
+    padding-right: 100px;
+}
+
+#social {
+    padding-left: 90px;
+}

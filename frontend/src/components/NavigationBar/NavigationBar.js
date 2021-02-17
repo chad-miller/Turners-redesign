@@ -8,6 +8,7 @@ import {
   NavDropdown,
 } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "./NavigationBar.css";
 
 // Define the React app
 const NavigationBar = () => {
@@ -19,12 +20,13 @@ const NavigationBar = () => {
   };
 
   const CenterText = {
-    margin: '0 auto'
+    marginRight: 'auto',
+    marginLeft: 'auto',
+    textAlign: 'center'
   }
 
   const LetterSpacing = {
     letterSpacing: '2rem',
-    textAlign: 'center'
   }
 
   return (
@@ -47,14 +49,17 @@ const NavigationBar = () => {
             <Button variant="outline-dark"><b>MAKE A CLAIM</b></Button>{' '}
           </Nav>
           <Navbar.Brand style={CenterText} href="turners">
-            <img
-              src="/static/turners-logo.png"
-              width="300"
-              height="100"
-              className="d-inline-block align-top"
-              alt="React Bootstrap logo"
-            />
-            <p style={LetterSpacing}>AUTOMOTIVE</p>
+            <div className='center'>
+              <img 
+                src="/static/turners-logo.png"
+                width="300"
+                height="auto"
+                className="d-inline-block align-top"
+                alt="React Bootstrap logo"
+                
+              />
+              <p style={LetterSpacing}>AUTOMOTIVE</p>
+            </div>
           </Navbar.Brand>
         </Navbar.Collapse>
         <Nav.Link href="#link">CONTACT</Nav.Link>
