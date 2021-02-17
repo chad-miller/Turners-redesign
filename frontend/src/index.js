@@ -9,6 +9,7 @@ import PlusSign from './components/PlusSign';
 import ImgCarousel from './components/Carousel/Carousel'
 import VehicleCard from './components/Card'
 import Footer from './components/Footer/Footer'
+import ContactForm from './components/ContactForm/ContactForm'
 
 
 
@@ -20,8 +21,7 @@ const App = () => {
         <InsuranceBar />
         <NavigationBar />
         <ImgCarousel />
-        <VehicleCard />
-        
+        <ContactForm />
         <Footer />
       </div>
   );

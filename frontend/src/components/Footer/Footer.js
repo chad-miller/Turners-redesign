@@ -10,7 +10,7 @@ function Footer() {
       <div className="container">
         <div className="row">
           {/* Column1 */}
-          <div className="col">
+          <div className="col1">
             <h2>SUPPORT</h2>
             <p className="list-unstyled">
               <li>SELL YOUR CAR</li>
@@ -26,14 +26,14 @@ function Footer() {
             </p>
           </div>
           {/* Column2 */}
-          <div className="col">
+          <div className="col2">
             <p className='deal'>ONE DAY DEAL</p>
             <h2>SEE OUR OFFERS ON FINANCING YOUR ELECTRIC CAR</h2>
             <p className='read-more'>Read more about the processing of your personal data on the <b>PRIVACY POLICY</b> page.</p>
             <TextField placeholder='Email' /> <Button>Send</Button>
           </div>
           {/* Column3 */}
-          <div className="col">
+          <div className="col3">
             <h2><img
               src='/static/turners-logo.png'
               width="300"
