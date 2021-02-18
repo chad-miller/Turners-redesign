@@ -16,9 +16,25 @@
 
         body {
             background: url('/static/background.jpg');
-            background-size: cover;
-            background-position: fixed;
+            background-size: normal;
+            background-position: cover;
             background-repeat: repeat;
+        }
+
+        div.dropdown-menu.show {
+            background-color: #292F33; // for drop down menu color
+        }
+
+        a.dropdown-item {
+            color: white; // for font color of individual drop down item
+        }
+
+        #basic-nav-dropdown {
+            color: white;
+            background-color: #292F33;
+            font-family: Oswald, sans-serif;
+            border-radius: 0.2rem 0 0 0.2rem;
+
         }
     </style>
 
@@ -26,10 +42,8 @@
 
 <body>
     <div id="app">
-        <h1>Hello world!</h1>
-        <button id="click">Click me :)</button>
+        <script id="myscript" src="{% static 'build/main.js' %}"></script>
     </div>
-    <script id="myscript" src="{% static 'build/main.js' %}"></script>
 </body>
 
 </html>

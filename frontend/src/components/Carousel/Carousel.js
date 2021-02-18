@@ -1,6 +1,7 @@
 import React from 'react';
 import { Carousel, CarouselCaption, CarouselItem } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'components/Carousel/Carousel.css';
 
 const ImgCarousel = () => {
   const CarouselStyling = {

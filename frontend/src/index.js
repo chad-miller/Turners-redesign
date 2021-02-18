@@ -6,8 +6,10 @@ import NavigationBar from './components/NavigationBar/NavigationBar';
 import InsuranceBar from './components/InsuranceBar/InsuranceBar';
 import SearchBar from './components/SearchBar/SearchBar';
 import PlusSign from './components/PlusSign';
-import ImgCarousel from './components/Carousel';
+import ImgCarousel from './components/Carousel/Carousel';
 import VehicleCard from './components/Card';
+import Footer from './components/Footer/Footer';
+import ContactForm from './components/ContactForm/ContactForm';
 import TextCard from './components/TextCard';
 
 // Define the React app
@@ -23,13 +25,10 @@ const App = () => {
         <NavigationBar />
         <SearchBar />
         <ImgCarousel />
-      </div>
-      {/* <div>
-        <h2 style={CenterText}>FIND A CAR</h2>
-        <SearchBar />
-      </div> */}
-      <div>
         <TextCard />
+        <ContactForm />
+
+        <Footer />
       </div>
     </section>
   );

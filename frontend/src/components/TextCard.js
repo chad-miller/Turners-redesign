@@ -32,7 +32,7 @@ const TextCard = () => {
 
   const Card2Styles = {
     border: '1px solid #292F33',
-    padding: '4rem 4rem 7.2rem 2rem',
+    padding: '4rem 4rem 7.8rem 2rem',
   };
 
   const ImgSize = {
